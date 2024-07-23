@@ -1,0 +1,76 @@
+
+.columns-prices {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f3f2f1;
+}
+
+.columns-prices .pricing-column {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 360px;
+}
+
+.columns-prices .pricing-title {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-m);
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.columns-prices .pricing-column p {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-s);
+  color: #333;
+  margin: 5px 0;
+}
+
+.columns-prices .pricing-column .price {
+  font-size: var(--heading-font-size-xl);
+  color: #000;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.columns-prices .pricing-column .action {
+  font-size: var(--body-font-size-s);
+  margin-top: auto;
+}
+
+.columns-prices .pricing-column .superscript-link {
+  font-size: var(--body-font-size-xs);
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.columns-prices .pricing-column .superscript-link:hover {
+  text-decoration: underline;
+}
+
+.columns-prices .pricing-column .buy-now {
+  display: inline-block;
+  background-color: #0078d4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.columns-prices .pricing-column .buy-now:hover {
+  background-color: #005a9e;
+}
+
+.columns-prices .pricing-column .buy-now:active {
+  background-color: #004578;
+}

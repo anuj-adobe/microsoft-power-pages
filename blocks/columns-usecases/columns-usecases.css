@@ -1,0 +1,69 @@
+
+.columns-usecases {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: linear-gradient(to right, #0f4c81, #1a73e8);
+  padding: 40px;
+  justify-content: center;
+}
+
+.columns-usecases-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.columns-usecases-item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.columns-usecases-img-wrapper {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.columns-usecases-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.columns-usecases-title {
+  font-size: var(--heading-font-size-l);
+  color: black;
+  margin: 10px 0;
+}
+
+.columns-usecases-description {
+  font-size: var(--body-font-size-s);
+  color: black;
+  margin-bottom: 10px;
+}
+
+.columns-usecases-link {
+  font-size: var(--body-font-size-xs);
+  color: var(--link-color);
+  background-color: transparent;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.columns-usecases-link:hover {
+  color: var(--link-hover-color);
+}
