@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "path": "/nav",
+    "sections": [
+      {
+        "id": "1-1",
+        "blocks": [
+          {
+            "id": "box-id-701132353",
+            "x": 0,
+            "y": 0,
+            "width": 1329,
+            "height": 54,
+            "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]",
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "color": "rgb(148, 0, 211)",
+            "mapping": "header",
+            "customBlockName": ""
+          }
+        ],
+        "settings": {}
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "path": "/en-us/power-platform/products/power-pages",
+    "sections": [
+      {
+        "id": "2-1",
+        "blocks": [],
+        "settings": {}
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "path": "/footer",
+    "sections": [
+      {
+        "id": "3-1",
+        "blocks": [],
+        "settings": {}
+      }
+    ]
+  }
+]
